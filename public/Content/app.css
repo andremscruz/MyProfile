@@ -1,0 +1,46 @@
+/*Andre Mariano Sousa Cruz - 301097077 - 10/09/2020 */
+#logo{
+    float: left;
+    width: 59px;
+}
+#me {   margin: auto;
+    padding: 8px;
+    width: 300px;
+    background-color: #FFF;
+    border: 1px solid #CCC;
+    box-shadow: 5px 5px 5px #828282;
+    transform: rotate(5deg);
+   float: right;
+
+}
+figcaption{
+    font-style: italic;
+    text-align: center;
+}
+#mission{
+    text-align: center;
+}
+#about{
+    padding-right: 380px;
+    padding-top: 100px;
+    text-align: justify;
+}
+#resume{
+    padding-top: 100px;
+    text-align: center;
+}
+#footer{
+    text-align: center;
+}
+#english{
+    margin: auto;
+    padding: 8px;
+    width: 300px;
+    background-color: #FFF;
+    border: 1px solid #CCC;
+    box-shadow: 5px 5px 5px #828282;
+    float: right;
+}
+#pg{
+    float: right;
+}
