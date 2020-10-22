@@ -35,12 +35,12 @@
         <a class="nav-link" href="/projects"><i class="fas fa-lg fa-cogs"></i> Projects </a>
       </li>
 
-      <% if (title == "Contact Us") { %>
+      <% if (title == "Book List") { %>
       <li class="nav-item active">
       <% } else { %> 
       <li class="nav-item">
       <% } %>
-        <a class="nav-link" href="/contact"><i class="fas fa-lg fa-phone-square-alt"></i> Contact Us </a>
+        <a class="nav-link" href="/book-list"><i class="fas fa-lg fa-book"></i> Books </a>
       </li>
 
       <% if (title == "Services") { %>
@@ -49,6 +49,14 @@
       <li class="nav-item">
       <% } %>
         <a class="nav-link" href="/services"><i class="fas fa-lg fa-concierge-bell"></i> Services </a>
+      </li>
+
+      <% if (title == "Contact Us") { %>
+      <li class="nav-item active">
+      <% } else { %> 
+      <li class="nav-item">
+      <% } %>
+        <a class="nav-link" href="/contact"><i class="fas fa-lg fa-phone-square-alt"></i> Contact Us </a>
       </li>
   </div>
 </nav>
