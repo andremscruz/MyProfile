@@ -56,7 +56,20 @@
       <% } else { %> 
       <li class="nav-item">
       <% } %>
-        <a class="nav-link" href="/contact-list"><i class="fas fa-lg fa-briefcase"></i></i> Business Contacts </a>
+        <a class="nav-link" href="/contact-list"><i class="fas fa-lg fa-briefcase"></i> Business Contacts </a>
+      </li>
+
+      <% if ((title == "Login") || (title == "Register")) { %>
+      <li class="nav-item active">
+      <% } else { %> 
+      <li class="nav-item">
+      <% } %>
+        <a class="nav-link" href="/login"><i class="fas fa-lg fa-sign-in-alt"></i> Login </a>
+      </li>
+
+      
+      <li class="nav-item">
+        <a class="nav-link" href="/logout"><i class="fas fa-lg fa-sign-out-alt"></i> Logout </a>
       </li>
   </div>
 </nav>

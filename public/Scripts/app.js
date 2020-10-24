@@ -6,7 +6,7 @@
         console.log("App Started...");
 
 
-        let deleteButtons = document.querySelectorAll('.btn-outline-danger')
+        let deleteButtons = document.querySelectorAll('.btn-outline-danger');
 
         for(button of deleteButtons)
         {
